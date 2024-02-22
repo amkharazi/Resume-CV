@@ -1,95 +1,302 @@
-\documentclass[a4paper,10pt]{article}
-\usepackage[left=1in, right=1in, top=1in, bottom=1in]{geometry}
-\usepackage{enumitem}
-\usepackage{titlesec}
-\usepackage{parskip}
-\usepackage{xcolor}
-\usepackage{fontawesome5}
+% a mashup of hipstercv, friggeri and twenty cv
+% https://www.latextemplates.com/template/twenty-seconds-resumecv
+% https://www.latextemplates.com/template/friggeri-resume-cv
+
+\documentclass[lighthipster]{simplehipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight, withoutsidebar
+% withoutsidebar
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+\usepackage{ragged2e}
+\usepackage{setspace}
+\usepackage{graphicx}
+\usepackage{fontawesome}
 \usepackage[hidelinks]{hyperref}
 
-% Define el color verde olivo
-\definecolor{verdeolivo}{RGB}{85,107,47} % Puedes ajustar estos valores según tus preferencias
 
-\titleformat{\section}{\large\bfseries\color{verdeolivo}}{}{0em}{}[\titlerule]
-\titleformat{\subsection}[runin]{\bfseries\color{verdeolivo}}{}{0em}{}[:]
+%------------------------------------------------------------------ Variablen
 
-\begin{document}
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.23\textwidth}
+\setlength{\rightcolwidth}{0.75\textwidth}
+
+%------------------------------------------------------------------
+\title{A.M.Kharazi Resume}
+\author{\LaTeX{} A.M.Kharazi}
+\date{2024}
 
 \pagestyle{empty}
+\begin{document}
 
-%\section*{\faIcon{address-card} Contact Information}
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+\simpleheader{headercolour}{Amir Mohammad}{Kharazi}{}{white}
+
+
+
+%------------------------------------------------
+
+% this has to be here so the paracols starts..
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.23}[0.75]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+
+\footnotesize
+{\setasidefontcolour
+\centering
 \begin{center}
-    \textbf{\Huge John Doe} \\
-    \vspace{2mm}
-    \faIcon{briefcase} Quality Engineer
+%    \roundpic{amkharazi.png}
 \end{center}
 
-\vspace{4mm}
-\begin{center}
-    \faIcon{phone} \href{https://wa.me/1234567890}{(123) 456-7890} \hspace{2cm}
-    \faIcon{envelope} \href{mailto:john.doe@example.com}{john.doe@example.com} \hspace{2cm}
-    \faIcon{linkedin} \href{https://www.linkedin.com/in/johndoe/}{johndoe}
-\end{center}
+\bg{cvgreen}{white}{About me}\\[0.5em]
+
+{\footnotesize
+	\justifying
+	\begin{spacing}{1.5}
+		I am a graduate from NODET and AUT with good ranking and I am currently ranked top in my Master Degree. I have a little experience working with C++, C\# and ASP.Net, and I have good working experience with Java and Python. I am confident in my data mining and machine learning skills and I am eagerly pursuing other fields to broaden my knowledge and experience 
+	\end{spacing}
+		
+	
+%\lorem\lorem\lorem
+
+}
+\bigskip
+
+\bg{cvgreen}{white}{personal} \\[0.5em]
+\begin{spacing}{1.5}
+	\justifying
+Amir Mohammad Kharazi
+
+nationality: Iranian 
+
+1998
+\end{spacing}
 
 
-\space
-\section*{\faIcon{user} Professional Profile}
-I am a Chemical Engineer with a passion for problem solving and quality. With my experience with leading medical device manufacturing companies, I have developed skills and knowledge about the regulations of this highly regulated industry with high quality standards. 
+\bigskip
 
-\section*{\faIcon{building} Work Experience}
+\bg{cvgreen}{white}{Areas of specialization} \\[0.5em]
 
-\subsection*{ABCD Medical \hfill Apr 2022 - Actual}
-\textit{ Quality Engineer} \\
-Implementing regulations, GMP, Lean methodologies, and 6S.
-Conducting risk management and analysis through FMEAs.
-Developing and executing protocols, procedures, and validation reports (TMVs).
-Actively contributing to the creation of a Validation Master Plan for various new production lines.
-Defining Critical to Quality (CTQs), establishing quality controls, and developing validation strategies for IQs, OQs, PQs, PPQs as required.
-Drafting Component Specifications (CSs) and overseeing raw material inspection processes (FAIs).
-Collaborating closely with customers and working alongside operators, technicians, buyers, and sterilization teams to ensure quality and timely deliveries.
+\begin{spacing}{1.5}
+Data Mining/Analysis ~•~ Machine Learning/AI ~•~ Web
+\end{spacing}
 
-\subsection*{Agroindustrial RIMAC \hfill Jan 2022 - Apr 2022}
-\textit{ Regulatory Assistant} \\
-To provide regulatory documentation support for various Active Ingredients
 
-\section*{\faIcon{graduation-cap} Education}
 
-\subsection*{Universidad de Costa Rica \hfill In progress}
-\textit{Lic. Chemical Engineer}\\
-Thesis topic "Implementation of the Failure Modes and Effects Analysis (FMEA) methodology for risk detection in the electro-surgical pencil device with smoke evacuation to enhance product quality."
+\bigskip
 
-\section*{\faIcon{cogs} Technical Skills}
-\begin{center}
-    \begin{itemize}[label=\faIcon{check}, itemsep=-3pt]
-        \item Process Validation
-        \item Quality Regulations and Standards
-        \item Risk Analysis
-        \item Problem Solving
-    \end{itemize}
-\end{center}
+\bg{cvgreen}{white}{Interests}\\[0.5em]
 
-\section*{\faIcon{certificate} Certifications}
-\begin{itemize}[label=\faIcon{certificate}]
-    \item Prints Reading
-    \item Applied Statistics in Medical Devices Manufacturing
-    \item Design of Experiments (DOE)
-    \item Root Cause Anlysis
+%\lorem
+\begin{spacing}{1.5}
+Data Mining, Machine Learning, Big Data Analysis, Java, Web Application
+\end{spacing}
+
+\bigskip
+
+\vfill
+
+\bg{cvgreen}{white}{Contacts}\\[0.5em]
+\justifying
+\begin{spacing}{1.5}
+	
+	{\hspace{0.55mm}\large\faMobilePhone}\hspace{2mm}\href{tel:+989911772110}{(+98) 991 177 2110}
+	
+	{\faEnvelopeO}\hspace{2mm}\href{mailto: a.m.kharazi.ac@gmail.com}{A.M.Kharazi.ac@gmail.com}
+	
+	{\hspace{0.1mm}\faGithub}\hspace{2mm}\href{https://github.com/amkharazi}{github.com/amkharazi}
+	
+	{\hspace{0.55mm}\faLinkedin}\hspace{2mm}\href{www.linkedin.com/in/amkharazi}{linkedin.com/in/amkharazi}
+	
+	{\hspace{0.7mm}\faSkype}\hspace{2mm}\href{live:a.m.kharazi}{live:a.m.kharazi}
+	
+	{\hspace{0.7mm}\faGlobe}\hspace{2mm}\href{https://amkharazi.github.io/}{amkharazi.github.io}
+	
+\end{spacing}
+
+%\vspace{4em}
+%\vfill
+%\flushleft
+%\resizebox{.3\textwidth}{!}{%
+%\infobubble{\faAt}{cvgreen}{white}{\href{mailto: a.m.kharazi.ac@gmail.com}{A.M.Kharazi.ac@gmail.com}}\\
+%%\infobubble{\faTwitter}{cvgreen}{white}{@sparrow}
+%%\infobubble{\faFacebook}{cvgreen}{white}{Jack Sparrow}
+%\infobubble{\faGithub}{cvgreen}{white}{\href{https://github.com/amkharazi}{amkharazi}}
+%}
+
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+\switchcolumn
+
+\small
+\section*{Short Resume}
+
+\begin{itemize}
+	
+	\item 
+	\textbf{Interests:}
+	Big Data Analysis ~,~
+	Data Science ~,~
+	and Machine Learning ~/~ 
+	Web ~,~ 
+%	Front-end ~,~
+	React ~,~
+	and Node.js ~/~
+	Data Engineering ~,~
+	Database ~,~
+	DevOps ~,~
+	and MLOps 
+	
+	\item
+	\textbf{Capabilities:} 
+	Team Work ~,~
+	Clean Code ~,~
+	Attentive Learner ~,~
+	Adaptable ~,~ 
+	Receptive ~,~
+	and Creative 
+	
+	\item
+	\textbf{Technical Skills:}
+	Version Control~-~Git ~/~
+	Python ~/~
+	Java ~/~
+	HTML ~/~
+	CSS ~/~
+	C ~/~
+	C++ ~/~
+	C\# ~/~
+	Oracle ~/~
+	PostgreSQL
+	
+	\item 
+	\textbf{Academic Background:}
+	Mathematical High School Diploma from NODET ~/~ Bachelor of Computer Science from AmirKabri University of Technology (AUT) ~/~ Master of Computer Science from Tarbiat Modares University (TMU)
+	
 \end{itemize}
 
-%\section*{\faIcon{code} Notable Projects}
-%\subsection*{Project 1 \hfill Start Date - End Date}
-%Description of the project and your contributions.
+%\begin{tabular}{r| p{0.5\textwidth} c}
+%    \cvevent{Interest}{Captain of the Black Pearl}{Lead}{East Indies \color{cvred}}{Finally got the goddamn ship back.\lorem\lorem\lorem}{disney.png} \\
+%    \cvevent{2016--2017}{Captain of the Black Pearl}{Lead}{Tortuga \color{cvred}}{Found a secret treasure, lost the ship. \lorem\lorem}{medal.jpeg}
+%\end{tabular}
 
-%\subsection*{Project 2 \hfill Start Date - End Date}
-%Description of the project and your contributions.
 
-\section*{\faIcon{language} Languages}
-\begin{itemize}[label=\faIcon{globe}]
-    \item Spanish - Native
-    \item English - Business Competence
-\end{itemize}
 
-\section*{\faIcon{thumbs-up} References}
-For reference contact Jane Smith\\ \textbf{\faIcon{linkedin} LinkedIn:} \href{https://www.linkedin.com/in/jane-smith/}{jane-smith}
+\vspace{3em}
+
+
+\begin{minipage}[t]{0.35\textwidth}
+\section*{Education}
+\begin{tabular}{r p{0.6\textwidth} c}
+    \cvdegree{2013}{High School}{Diploma}{NODET/SAMPAD \color{headerblue}}{}{nodet.png} \\
+    \cvdegree{2017}{Computer Science}{B.Sc}{AmirKabir University of Technology \color{headerblue}}{}{aut.png} \\
+    \cvdegree{2022}{Computer Science}{M.Sc}{Tarbiat Modares University \color{headerblue}}{}{tmu.png}
+\end{tabular}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Programming}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{html, css} &  \barrule{0.4}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.6}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{python} & \barrule{0.6}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{Java} & \barrule{0.48}{0.5em}{cvpurple} \\
+     \bg{skilllabelcolour}{iconcolour}{C, C++, C\#} & \barrule{0.35}{0.5em}{cvpurple} \\
+\end{tabular}
+\end{minipage}
+
+\section*{Work Experience}
+\begin{tabular}{r| p{0.5\textwidth} c}
+\cvevent{2021, 2023}{Teaching Assistance}{AUT}{TMU \color{white}}{TA of Data Mining course from AUT and Machine Learning, Deep Learning, and Special Topics in Artificial Intelligence from TMU}{tmu.png} \\
+%    \cvevent{2019}{Freelance Pirate}{Bucaneering}{Tortuga \color{cvred}}{This and that. The usual, aye?  \lorem}{medal.jpeg} \\
+\end{tabular}
+\vspace{3em}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Certificates}
+\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.55\textwidth}}
+    2017 & High School Diploma \\
+    2017 & Government Scholarship \\
+    2021 & B.Sc Degree in Computer Science \\
+    2022 & Government Scholarship \\
+\end{tabular}
+\bigskip
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+	
+	\section*{Languages}
+	\begin{tabular}{l | ll}
+		\textbf{Persian} &  & {\phantom{x}\footnotesize mother tongue} \\
+		\textbf{English} & IELTS & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny} \\
+		%\textbf{Spanish} & C2 & \pictofraction{\faCircle}{cvgreen}{1}{black!30}{3}{\tiny} \\
+		%\textbf{Italian} & C2 & \pictofraction{\faCircle}{cvgreen}{3}{black!30}{1}{\tiny}
+	\end{tabular}
+	\bigskip
+%\section*{Publications}
+%\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.7\textwidth}}
+%    1729 & \emph{How I almost got killed by Lady Swan}, Tortuga Printing Press. \\
+%    1720 & ``Privateering for Beginners'', in: \emph{The Pragmatic Pirate} (1/1720).
+%\end{tabular}
+%\bigskip
+%
+%\section*{Talks}
+%\begin{tabular}{>{\footnotesize\bfseries}r >{\footnotesize}p{0.6\textwidth}}
+%    Nov. 1726 & ``How I lost my ship (\& and how to get it back)'', at: \emph{Annual Pirate's Conference} in Tortuga, Nov. 1726.
+%\end{tabular}
+\end{minipage}
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\small 
+	Amir Mohammad Kharazi
+	 \icon{\faEnvelopeO}{cvgreen}{}
+	  \href{mailto:A.M.Kharazi.ac@gmail.com}{A.M.Kharazi.ac@gmail.com} 
+	  \icon{\faMapMarker}{cvgreen}{} 
+	  Tehran 
+	  \icon{\faPhone}{cvgreen}{}
+	   \href{tel:+989911772110}{(+98) 991 177 2110} 
+	   \newline
+	   \icon{\faGlobe}{cvgreen}{}
+	    \href{https://amkharazi.github.io/}{amkharazi.github.io}
+	     \icon{\faGithub}{cvgreen}{}
+	    \href{https://github.com/amkharazi}{github.com/amkharazi}
+	    \icon{\faSkype}{cvgreen}{}
+	    \href{live:a.m.kharazi}{live:a.m.kharazi}
+	    
+}
+\end{center}
+\end{minipage}
+
+\end{paracol}
 
 \end{document}
