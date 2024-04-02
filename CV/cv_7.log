@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.24)  2 APR 2024 05:20
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.24)  2 APR 2024 05:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -211,9 +211,9 @@ LaTeX Font Info:    Trying to load font information for U+mvs on input line 78.
 \footerwidth=\skip73
 \footerboxwidth=\skip74
 )
-(./moderncvcolorblue.sty
-Package: moderncvcolorblue 2012/10/31 v1.2.0 modern curriculum vitae and letter
- color scheme: blue
+(./moderncvcolorgrey.sty
+Package: moderncvcolorgrey 2012/10/31 v1.2.0 modern curriculum vitae and letter
+ color scheme: grey
 )
 (c:/texlive/2022/texmf-dist/tex/latex/lipsum/lipsum.sty
 (c:/texlive/2022/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -488,12 +488,12 @@ Package hyperref Info: Link coloring OFF on input line 59.
 \makecvtitlepicturebox=\box57
 \makecvtitlepicturewidth=\skip76
 
-Underfull \hbox (badness 10000) in paragraph at lines 88--88
+Underfull \hbox (badness 10000) in paragraph at lines 90--90
 
  []
 
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
-9.
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+01.
 (c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -501,47 +501,47 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
-9.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+01.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-99.
+101.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-99.
+101.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 99.
+(Font)              <10.95> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 99.
+(Font)              <8> on input line 101.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 99.
+(Font)              <6> on input line 101.
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 112.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 114.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 128.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 130.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 141.
+(Font)              using `T1/lmss/m/sc' instead on input line 143.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 162.
+(Font)              using `T1/lmss/m/sc' instead on input line 164.
 
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -550,19 +550,15 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 ]
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 166.
+(Font)              using `T1/lmss/m/sc' instead on input line 168.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 171.
+(Font)              using `T1/lmss/m/sc' instead on input line 173.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 176.
-
-
-LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 181.
+(Font)              using `T1/lmss/m/sc' instead on input line 178.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
@@ -570,25 +566,29 @@ LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 193.
+(Font)              using `T1/lmss/m/sc' instead on input line 185.
 
 
-Underfull \hbox (badness 3861) in paragraph at lines 216--216
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 195.
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 218--218
 []\T1/lmss/bx/n/10.95 SATURN: Split-ting Ap-proach on Ten-sorized Ubiq-ui-tous 
 Re-gres-sion
  []
 
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 230.
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 232.
 [2] (./cv_7.aux)
 Package rerunfilecheck Info: File `cv_7.out' has not changed.
 (rerunfilecheck)             Checksum: F1BE611C141CDB89D234070249BF892F;1069.
  ) 
 Here is how much of TeX's memory you used:
- 12408 strings out of 476688
- 206020 string characters out of 5807699
+ 12409 strings out of 476688
+ 206031 string characters out of 5807699
  1862001 words of memory out of 5000000
- 32444 multiletter control sequences out of 15000+600000
+ 32445 multiletter control sequences out of 15000+600000
  570199 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  75i,12n,83p,1001b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
