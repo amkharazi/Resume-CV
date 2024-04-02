@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.24)  19 JAN 2024 01:45
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.2.24)  2 APR 2024 05:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -485,114 +485,112 @@ Package hyperref Info: Link coloring OFF on input line 59.
 \@outlinefile=\write3
 \openout3 = `cv_7.out'.
 
-\pagenumberwidth=\skip76
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 59.
+\makecvtitlepicturebox=\box57
+\makecvtitlepicturewidth=\skip76
 
-(c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-mvs.cfg
-File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+Underfull \hbox (badness 10000) in paragraph at lines 88--88
+
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 9
+9.
+(c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 (c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 8
-2.
-
-(c:/texlive/2022/texmf-dist/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 8
-2.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 9
+9.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-82.
+99.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-82.
+99.
 
 (c:/texlive/2022/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 82.
+(Font)              <10.95> on input line 99.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 82.
+(Font)              <8> on input line 99.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 82.
-
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 54.40001pt, for example:
-(fancyhdr)                \setlength{\footskip}{54.40001pt}.
-
-[1
-
-
-]
-\makecvtitlepicturebox=\box57
-File: pictures/picture.jpg Graphic file (type bmp)
-<pictures/picture.jpg>
-\makecvtitlepicturewidth=\skip77
-
-
-LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 129.
+(Font)              <6> on input line 99.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 112.
 
 
 LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10.95> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 129.
+(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 128.
 
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--129
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 141.
 
- []
-
-
-LaTeX Font Warning: Font shape `T1/lmss/m/sc' in size <10> not available
-(Font)              Font shape `T1/lmr/m/sc' tried instead on input line 129.
-
-Package microtype Info: Character `029' is missing
-(microtype)             in font `T1/lmr/m/sc/10'.
-(microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
-(Font)              using `T1/lmss/m/sc' instead on input line 133.
+(Font)              using `T1/lmss/m/sc' instead on input line 162.
+
+(c:/texlive/2022/texmf-dist/tex/latex/microtype/mt-mvs.cfg
+File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
+) [1
+
+]
+
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 166.
 
 
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 54.40001pt, for example:
-(fancyhdr)                \setlength{\footskip}{54.40001pt}.
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 171.
 
-[2]
+
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 176.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 181.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 183.
+
+
+LaTeX Font Warning: Font shape `T1/lmss/m/scsl' undefined
+(Font)              using `T1/lmss/m/sc' instead on input line 193.
+
+
+Underfull \hbox (badness 3861) in paragraph at lines 216--216
+[]\T1/lmss/bx/n/10.95 SATURN: Split-ting Ap-proach on Ten-sorized Ubiq-ui-tous 
+Re-gres-sion
+ []
+
 LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 177.
-
-
-Package fancyhdr Warning: \footskip is too small (30.0pt): 
-(fancyhdr)                Make it at least 54.40001pt, for example:
-(fancyhdr)                \setlength{\footskip}{54.40001pt}.
-
-[3] (./cv_7.aux)
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 230.
+[2] (./cv_7.aux)
 Package rerunfilecheck Info: File `cv_7.out' has not changed.
-(rerunfilecheck)             Checksum: AB58EF4FAFE2F64DAD8E7FBB65291808;1036.
+(rerunfilecheck)             Checksum: F1BE611C141CDB89D234070249BF892F;1069.
  ) 
 Here is how much of TeX's memory you used:
- 12459 strings out of 476688
- 206981 string characters out of 5807699
- 1857001 words of memory out of 5000000
- 32485 multiletter control sequences out of 15000+600000
- 587922 words of font info for 71 fonts, out of 8000000 for 9000
+ 12408 strings out of 476688
+ 206020 string characters out of 5807699
+ 1862001 words of memory out of 5000000
+ 32444 multiletter control sequences out of 15000+600000
+ 570199 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,12n,83p,1001b,547s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,83p,1001b,512s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on cv_7.pdf (3 pages).
+Output written on cv_7.pdf (2 pages).
